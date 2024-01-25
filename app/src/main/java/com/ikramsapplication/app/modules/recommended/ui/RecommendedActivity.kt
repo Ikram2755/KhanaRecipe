@@ -41,7 +41,7 @@ class RecommendedActivity : BaseActivity<ActivityRecommendedBinding>(R.layout.ac
     }
     val recommendedAdapter =
     RecommendedAdapter(viewModel.recommendedList.value?:mutableListOf())
-    binding.recyclerRecommended.adapter = recommendedAdapter
+    //binding.recyclerRecommended.adapter = recommendedAdapter
     recommendedAdapter.setOnItemClickListener(
     object : RecommendedAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : RecommendedRowModel) {
