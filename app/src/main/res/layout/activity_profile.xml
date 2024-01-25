@@ -106,23 +106,13 @@
 
                 <TextView
                     android:id="@+id/favlist"
-                    style="@style/txtRoundedOutline"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_35pxh"
-                    android:layout_marginTop="@dimen/_4pxv"
-                    android:layout_marginEnd="@dimen/_35pxh"
-                    android:ellipsize="end"
-                    android:gravity="center_vertical"
-                    android:hint="@{profileVM.profileModel.txtGroupSix}"
-                    android:paddingStart="@dimen/_27pxh"
-                    android:paddingTop="@dimen/_6pxv"
-                    android:paddingBottom="@dimen/_1pxv"
-
-                    android:singleLine="true"
-                    android:textColorHint="@color/white"
-                    tools:text="Favorites"
-
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:text="Favorites"
+                    android:layout_marginStart="@dimen/_20pxv"
+                    android:layout_marginTop="@dimen/_10pxv"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
                     />
 
                 <LinearLayout
