@@ -113,25 +113,25 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:id="@+id/imageRectangleThirtyThree"
+                        android:id="@+id/favimage1"
                         cornerRadius="@{@dimen/_10pxh}"
-                        imageRes="@{@drawable/img_rectangle33}"
+                        imageRes="@{@drawable/Paytaxt}"
                         android:layout_width="@dimen/_167pxh"
                         android:layout_height="@dimen/_177pxh"
                         android:scaleType="fitXY"
                         tools:ignore="ContentDescription"
-                        tools:src="@drawable/img_rectangle33" />
+                        tools:src="@drawable/Paytaxt" />
 
                     <ImageView
-                        android:id="@+id/imageRectangleThirtyFour"
+                        android:id="@+id/favimage2"
                         cornerRadius="@{@dimen/_10pxh}"
-                        imageRes="@{@drawable/img_rectangle33}"
+                        imageRes="@{@drawable/dolma}"
                         android:layout_width="@dimen/_167pxh"
                         android:layout_height="@dimen/_177pxh"
                         android:layout_marginStart="@dimen/_10pxh"
                         android:scaleType="fitXY"
                         tools:ignore="ContentDescription"
-                        tools:src="@drawable/img_rectangle33" />
+                        tools:src="@drawable/dolma" />
                 </LinearLayout>
                 <!-- <LinearLayout android:gravity="start"
                     android:id="@+id/linearRowrectanglethirtyfive"
@@ -159,7 +159,7 @@
                         tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle33"/>
                 </LinearLayout>-->
             </LinearLayout>
-            <ImageView android:id="@+id/imageRectangleThirtySeven"
+            <ImageView android:id="@+id/favimage3"
                 android:layout_gravity="bottom|start"
                 android:layout_height="@dimen/_177pxh"
                 android:layout_marginEnd="@dimen/_35pxh"
@@ -169,9 +169,10 @@
                 android:layout_marginBottom="50dp"
                 android:scaleType="fitXY"
                 cornerRadius="@{@dimen/_10pxh}"
-                imageRes="@{@drawable/img_rectangle33}"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle33"/>
-            <ImageView android:id="@+id/imageRectangleThirtyEight"
+                imageRes="@{@drawable/kabab}"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/kabab"/>
+            <ImageView android:id="@+id/favimage4"
                 android:layout_gravity="bottom|end"
                 android:layout_height="@dimen/_177pxh"
                 android:layout_marginEnd="@dimen/_35pxh"
@@ -181,8 +182,9 @@
                 android:layout_marginBottom="50dp"
                 android:scaleType="fitXY"
                 cornerRadius="@{@dimen/_10pxh}"
-                imageRes="@{@drawable/img_rectangle33}"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle33"/>
+                imageRes="@{@drawable/plov}"
+                tools:ignore="ContentDescription"
+                tools:src="@drawable/plov"/>
         </FrameLayout>
     </FrameLayout>
 </layout>
