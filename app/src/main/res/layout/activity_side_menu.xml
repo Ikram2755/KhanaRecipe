@@ -6,14 +6,15 @@
     </data>
     <FrameLayout android:id="@+id/frameSIDEMENU"
         android:layout_height="match_parent" android:layout_width="match_parent">
-        <ImageView android:id="@+id/profileback"
+        <ImageView
+            android:id="@+id/backimage2"
             android:layout_gravity="start"
-            android:layout_height="match_parent"
             android:layout_width="match_parent"
-            android:scaleType="fitXY"
-            imageRes="@{@drawable/profileback}"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            imageRes="@{@drawable/backimage2}"
             tools:ignore="ContentDescription"
-            tools:src="@drawable/profileback"/>
+            tools:src="@drawable/backimage2"/>
         <LinearLayout android:id="@+id/linearColumnellipseone"
             android:layout_gravity="start"
             android:layout_height="wrap_content"
