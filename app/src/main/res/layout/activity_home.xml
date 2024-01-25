@@ -15,7 +15,7 @@
         <androidx.core.widget.NestedScrollView
             android:id="@+id/scrollViewScrollview"
             android:layout_width="wrap_content"
-            android:layout_height="685dp"
+            android:layout_height="703dp"
             android:layout_gravity="bottom|center"
             android:layout_marginStart="@dimen/_34pxh"
             android:layout_marginTop="@dimen/_10pxv"
@@ -122,7 +122,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="top|start"
-                        android:layout_marginTop="@dimen/_212pxv"
+                        android:layout_marginTop="@dimen/_230pxv"
                         android:layout_marginBottom="@dimen/_212pxv"
                         android:orientation="vertical">
 
@@ -189,7 +189,7 @@
                     android:id="@+id/recyclerRecomended"
                     itemSpace="@{@dimen/_10pxh}"
                     android:layout_width="match_parent"
-                    android:layout_height="211dp"
+                    android:layout_height="235dp"
                     android:layout_gravity="bottom|center"
                     android:layout_marginStart="@dimen/_1pxh"
                     android:layout_marginTop="@dimen/_10pxv"
