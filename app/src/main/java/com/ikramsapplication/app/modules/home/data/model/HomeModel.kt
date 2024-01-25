@@ -8,7 +8,7 @@ data class HomeModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.lbl_welcome_denny)
+  var txtLanguage: String? = MyApp.getInstance().resources.getString(R.string.lbl_welcome_ikram)
   ,
   /**
    * TODO Replace with dynamic value

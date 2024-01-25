@@ -14,7 +14,7 @@
 
         <androidx.core.widget.NestedScrollView
             android:id="@+id/scrollViewScrollview"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="699dp"
             android:layout_gravity="bottom|center"
             android:layout_marginStart="@dimen/_34pxh"
@@ -223,7 +223,7 @@
                     android:id="@+id/imageMenu"
                     android:layout_width="@dimen/_25pxh"
                     android:layout_height="@dimen/_26pxh"
-                    android:layout_marginBottom="@dimen/_3pxv"
+                    android:layout_marginBottom="@dimen/_10pxv"
                     android:scaleType="fitXY"
                     android:src="@drawable/img_menu"
                     tools:ignore="ContentDescription"
