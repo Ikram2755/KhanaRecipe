@@ -189,7 +189,7 @@
                     android:id="@+id/recyclerRecomended"
                     itemSpace="@{@dimen/_10pxh}"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="211dp"
                     android:layout_gravity="bottom|center"
                     android:layout_marginStart="@dimen/_1pxh"
                     android:layout_marginTop="@dimen/_10pxv"
@@ -221,8 +221,8 @@
 
                 <ImageView
                     android:id="@+id/imageMenu"
-                    android:layout_width="@dimen/_25pxh"
-                    android:layout_height="@dimen/_26pxh"
+                    android:layout_width="@dimen/_35pxh"
+                    android:layout_height="@dimen/_36pxh"
                     android:layout_marginBottom="@dimen/_10pxv"
                     android:layout_marginLeft="@dimen/_20pxv"
                     android:scaleType="fitXY"
@@ -232,8 +232,8 @@
 
                 <ImageView
                     android:id="@+id/imageNotification"
-                    android:layout_width="wrap_content"
-                    android:layout_height="29dp"
+                    android:layout_width="30dp"
+                    android:layout_height="39dp"
                     android:layout_marginStart="@dimen/_293pxh"
                     android:scaleType="fitXY"
                     android:src="@drawable/img_notification"
