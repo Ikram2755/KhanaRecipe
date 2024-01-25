@@ -115,12 +115,12 @@
                     <ImageView
                         android:id="@+id/favimage1"
                         cornerRadius="@{@dimen/_10pxh}"
-                        imageRes="@{@drawable/Paytaxt}"
+                        imageRes="@{@drawable/salad}"
                         android:layout_width="@dimen/_167pxh"
                         android:layout_height="@dimen/_177pxh"
                         android:scaleType="fitXY"
                         tools:ignore="ContentDescription"
-                        tools:src="@drawable/Paytaxt" />
+                        tools:src="@drawable/salad" />
 
                     <ImageView
                         android:id="@+id/favimage2"
