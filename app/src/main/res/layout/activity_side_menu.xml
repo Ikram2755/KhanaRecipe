@@ -6,13 +6,14 @@
     </data>
     <FrameLayout android:id="@+id/frameSIDEMENU"
         android:layout_height="match_parent" android:layout_width="match_parent">
-        <ImageView android:id="@+id/imageRectangleEighteen"
+        <ImageView android:id="@+id/profileback"
             android:layout_gravity="start"
             android:layout_height="match_parent"
             android:layout_width="match_parent"
             android:scaleType="fitXY"
-            imageRes="@{@drawable/img_rectangle18}"
-            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle18"/>
+            imageRes="@{@drawable/profileback}"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/profileback"/>
         <LinearLayout android:id="@+id/linearColumnellipseone"
             android:layout_gravity="start"
             android:layout_height="wrap_content"
@@ -33,13 +34,17 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="0.89"
                         android:layout_width="0dp" android:orientation="horizontal">
-                        <ImageView android:id="@+id/imageEllipseOne"
-                            android:layout_height="@dimen/_70pxh"
-                            android:layout_width="@dimen/_70pxh"
-                            android:scaleType="centerCrop"
+
+                        <ImageView
+                            android:id="@+id/imageEllipseOne"
                             circular="@{true}"
-                            imageRes="@{@drawable/img_ellipse1}"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse1"/>
+                            imageRes="@{@drawable/menem}"
+                            android:layout_width="@dimen/_70pxh"
+                            android:layout_height="@dimen/_70pxh"
+                            android:scaleType="centerCrop"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/menem" />
+
                         <LinearLayout android:gravity="start"
                             android:id="@+id/linearColumndenny"
                             android:layout_height="wrap_content"
@@ -49,12 +54,13 @@
                             android:layout_weight="0.55"
                             android:layout_width="0dp" android:orientation="vertical">
                             <TextView android:ellipsize="end"
-                                android:id="@+id/txtDenny"
+                                android:id="@+id/txtIkram"
                                 android:layout_height="wrap_content"
                                 android:layout_width="match_parent"
                                 android:singleLine="true"
-                                android:text="@{sideMenuVM.sideMenuModel.txtDenny}"
-                                style="@style/txtLoraromanbold27" tools:text="@string/lbl_denny"/>
+                                android:text="@{sideMenuVM.sideMenuModel.txtIkram}"
+                                style="@style/txtLoraromanbold27"
+                                tools:text="@string/lbl_ikram"/>
                             <TextView android:ellipsize="end"
                                 android:id="@+id/txtViewProfile"
                                 android:layout_height="wrap_content"

@@ -8,7 +8,7 @@ data class SideMenuModel(
   /**
    * TODO Replace with dynamic value
    */
-  var txtDenny: String? = MyApp.getInstance().resources.getString(R.string.lbl_denny)
+  var txtIkram: String? = MyApp.getInstance().resources.getString(R.string.lbl_ikram)
   ,
   /**
    * TODO Replace with dynamic value
